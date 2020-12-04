@@ -4,7 +4,7 @@ const message = document.getElementById("message");
 const list = document.getElementById("list");
 const result = document.getElementById("result");
 
-function fun() {
+const fun = () => {
   const li = document.createElement("li");
   const btn1 = document.createElement("button");
   const btn2 = document.createElement("button");
@@ -37,5 +37,3 @@ function fun() {
     })
   }
  }
- 
-

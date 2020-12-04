@@ -7,9 +7,9 @@
   </head>
   <body>
     <h1>ToDo List</h1>
-      <form>
+      <form onsubmit="fun(); return false">
         <input type="text" class="task" id="message" value="" placeholder="タスクを入力してください">
-        <input type="button" onclick="fun()" value="タスクを追加する">
+        <input type="submit" occlick="return false" value="タスクを追加する">
       </form>
     <div class="list" id="output">
       <ul id="list">
